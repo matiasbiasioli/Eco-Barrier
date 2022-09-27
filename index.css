@@ -1,0 +1,32 @@
+/* Estilos mobile */
+
+.navegador .container-fluid {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container-fluid img {
+    width: 18em;
+}
+
+.btn-hamburguesa {
+    margin: auto;
+}
+
+
+@media (min-width:992px) {
+    .nav-menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navegador {
+        height: 150px;
+        border-bottom: solid;
+    }
+    .navegador .container-fluid {
+        flex-direction: row;
+    }
+    
+}

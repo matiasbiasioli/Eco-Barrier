@@ -1,32 +1,66 @@
 /* Estilos mobile */
 
+/* Header */
+
 .navegador .container-fluid {
     display: flex;
     flex-direction: column;
 }
 
-
-
-.container-fluid img {
+.nav-content img {
     width: 18em;
+    padding-left: 20px;
 }
 
 .btn-hamburguesa {
     margin: auto;
 }
 
+/* contenido principal */
+
+
+/* Seccion revista */
+
+.container-quienes-somos {
+    background-color: rgb(227, 239, 242);  
+}
+
+.text-revista h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.content-revista {
+    padding: 60px 0px; 
+    display: flex;
+    justify-content: center;
+}
+
+/* mapa */
+
+.container-mapa {
+    background-color:rgb(227, 239, 242) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-mapa h2 {
+    padding-bottom: 40px;
+}
+
 
 @media (min-width:992px) {
     .nav-menu {
         display: flex;
-        justify-content: flex-end;
+        justify-content:right;
+        padding-right: 20px;
     }
     .navegador {
-        height: 150px;
+        height: 120px;
         border-bottom: solid;
     }
     .navegador .container-fluid {
         flex-direction: row;
     }
-    
 }

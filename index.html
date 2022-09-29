@@ -18,8 +18,8 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-light navegador">
-        <div class="container-fluid nav-content">
+      <nav class="navbar navbar-expand-lg bg-light fixed-top navegador">
+        <div class="container nav-content">
           <a class="navbar-brand" href="#"
             ><img src="./imagenes/eco-barrier-logo.png" alt="logo-empresa"
           /></a>
@@ -39,9 +39,9 @@
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav">
-              <a class="nav-link active" href="#">Home</a>
-              <a class="nav-link active" href="#">Quienes somos</a>
-              <a class="nav-link active" href="#">Producto</a>
+              <a class="nav-link active pe-1" href="#">Inicio</a>
+              <a class="nav-link active pe-1" href="#">Quienes somos</a>
+              <a class="nav-link active pe-1" href="#">Producto</a>
               <a class="nav-link active" href="#">Contactanos</a>
             </div>
           </div>
@@ -77,7 +77,7 @@
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner carousel-change">
           <div class="carousel-item active">
             <img
               src="./imagenes/eco-barrera.jpeg"
@@ -87,7 +87,7 @@
             <div class="carousel-caption d-md-block">
               <h5>Eco-Barrier</h5>
               <p>Barrera efectiva contra ardillas.</p>
-              <button class="btn-primary">Contactanos</button>
+              <button class="btn btn-primary btn-lg">Contactanos</button>
             </div>
           </div>
           <div class="carousel-item">
@@ -99,6 +99,7 @@
             <div class="carousel-caption d-md-block">
               <h5>Eco-Barrier</h5>
               <p>Barerra efectiva contra ardillas.</p>
+              <button class="btn btn-primary btn-lg">Contactanos</button>
             </div>
           </div>
           <div class="carousel-item">
@@ -110,6 +111,7 @@
             <div class="carousel-caption d-md-block">
               <h5>Eco-Barrier</h5>
               <p>Barerra efectiva contra ardillas.</p>
+              <button class="btn btn-primary btn-lg">Contactanos</button>
             </div>
           </div>
         </div>
@@ -134,11 +136,11 @@
       </div>
     </main>
 
-    <section class="container-fluid container-quienes-somos">
+    <section class="container-fluid container-quienes-somos bg-light">
       <div class="row content-revista">
         <img
           class="col-sm-8 col-md-10 col-lg-6"
-          src="./imagenes/revista.jpeg"
+          src="./imagenes/revista.png"
           alt=""
         />
         <div class="col-lg-6 text-revista">
@@ -188,6 +190,14 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </section>
+
+    <section>
+
+    </section>
+
+    <footer class="container-footer">
+      <img src="./imagenes/eco-barrier-logo.png" alt="">
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script

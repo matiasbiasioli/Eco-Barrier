@@ -9,7 +9,6 @@
 
 .nav-content img {
     width: 18em;
-    padding-left: 20px;
 }
 
 .btn-hamburguesa {
@@ -47,6 +46,11 @@
 }
 .container-mapa h2 {
     padding-bottom: 40px;
+
+}
+
+.container-footer {
+    background-color: #181a1a;
 }
 
 
@@ -58,9 +62,11 @@
     }
     .navegador {
         height: 120px;
-        border-bottom: solid;
     }
     .navegador .container-fluid {
         flex-direction: row;
+    }
+    .carousel-change {
+        height: 100vh;
     }
 }

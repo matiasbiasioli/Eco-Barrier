@@ -66,7 +66,7 @@
 
 .spot-eco-barrier h2 {
     background-color:#80b698;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     padding: 2.5rem;
 }
 
@@ -128,7 +128,7 @@ iframe {
     }
     .text-slider {
         position: absolute;
-        bottom: 500px;
+        bottom: 480px;
     }
     .text-slider h5 {
         font-size: 4rem;
@@ -145,6 +145,10 @@ iframe {
         text-align: center;
         font-size: 2.5rem;
         padding: 1.5rem;
+    }
+    .spot-eco-barrier h2 {
+        font-size: 2.5rem;
+        padding: 2.5rem;
     }
     .spot-eco-barrier iframe {
         width: 50%;

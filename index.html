@@ -18,7 +18,7 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-light fixed-top navegador">
+      <nav class="navbar navbar-expand-lg navegador">
         <div class="container nav-content">
           <a class="navbar-brand" href="#"
             ><img src="./imagenes/eco-barrier-logo.png" alt="logo-empresa"
@@ -38,10 +38,10 @@
             class="collapse navbar-collapse nav-menu"
             id="navbarNavAltMarkup"
           >
-            <div class="navbar-nav">
-              <a class="nav-link active pe-1" href="#">Inicio</a>
-              <a class="nav-link active pe-1" href="#">Quienes somos</a>
-              <a class="nav-link active pe-1" href="#">Producto</a>
+            <div class="navbar-nav nav-menu">
+              <a class="nav-link active pe-3" href="#">Inicio</a>
+              <a class="nav-link active pe-3" href="#">Quienes somos</a>
+              <a class="nav-link active pe-3" href="#">Producto</a>
               <a class="nav-link active" href="#">Contactanos</a>
             </div>
           </div>
@@ -84,7 +84,7 @@
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption d-md-block">
+            <div class="carousel-caption d-md-block text-slider">
               <h5>Eco-Barrier</h5>
               <p>Barrera efectiva contra ardillas.</p>
               <button class="btn btn-primary btn-lg">Contactanos</button>
@@ -96,7 +96,7 @@
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption d-md-block">
+            <div class="carousel-caption d-md-block text-slider">
               <h5>Eco-Barrier</h5>
               <p>Barerra efectiva contra ardillas.</p>
               <button class="btn btn-primary btn-lg">Contactanos</button>
@@ -108,7 +108,7 @@
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption d-md-block">
+            <div class="carousel-caption d-md-block text-slider">
               <h5>Eco-Barrier</h5>
               <p>Barerra efectiva contra ardillas.</p>
               <button class="btn btn-primary btn-lg">Contactanos</button>
@@ -136,15 +136,18 @@
       </div>
     </main>
 
-    <section class="container-fluid container-quienes-somos bg-light">
-      <div class="row content-revista">
+    <section class="container-fluid container-quienes-somos pt-5 bg-light">
+      <div class="title-revista">
+        <h2>Quienes somos</h2>
+      </div>
+
+      <div class="row content-revista gap-5">
         <img
-          class="col-sm-8 col-md-10 col-lg-6"
+          class="col-sm-8 col-md-10 col-lg-4"
           src="./imagenes/revista.png"
           alt=""
         />
-        <div class="col-lg-6 text-revista">
-          <h2>Quienes somos</h2>
+        <div class="col-lg-6 texto-revista">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
             sint debitis ducimus sit enim consequatur, nesciunt quidem odit quo
@@ -178,11 +181,29 @@
       </div>
     </section>
 
-    <section class="container-mapa">
-      <h2>Donde estamos</h2>
+    <section class="spot-eco-barrier">
+      <div>
+        <h2>Un puente perfecto entre ardillas, medio ambiente y tecnologia</h2>
+      </div>
+      <iframe
+        width="50%"
+        height="415"
+        src="https://www.youtube.com/embed/6b0_q2WZeEk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section class="container-mapa bg-light">
+      <div class="mapa-title">
+        <h2>Donde estamos</h2>
+      </div>
+
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26355.169924331294!2d-58.849475735578395!3d-34.34039229905738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb63d402f21591%3A0xc786a73018dafff1!2sLoma%20Verde%2C%20Matheu%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1664372264676!5m2!1ses-419!2sar"
-        width="80%"
+        width="90%"
         height="450"
         style="border: 0"
         allowfullscreen=""
@@ -191,12 +212,9 @@
       ></iframe>
     </section>
 
-    <section>
-
-    </section>
-
     <footer class="container-footer">
-      <img src="./imagenes/eco-barrier-logo.png" alt="">
+      <img src="./imagenes/eco-barrier-logo.png" alt="logo-eco-barrier" />
+      <p></p>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->

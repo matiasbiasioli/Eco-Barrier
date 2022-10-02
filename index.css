@@ -1,14 +1,11 @@
-/* Estilos mobile */
-
-/* Header */
-
-.navegador .container-fluid {
-    display: flex;
-    flex-direction: column;
-}
+/* Header mobile*/
 
 .nav-content img {
     width: 18em;
+}
+
+.nav-menu a {
+    color: #1b7e46 !important;
 }
 
 .btn-hamburguesa {
@@ -24,10 +21,11 @@
     background-color: rgb(227, 239, 242);  
 }
 
-.text-revista h2 {
-    font-size: 2rem;
+
+.title-revista h2 {
+    background-color:#80b698;
     text-align: center;
-    padding: 20px 0px;
+    padding: 1.5rem;
 }
 
 .content-revista {
@@ -36,21 +34,44 @@
     justify-content: center;
 }
 
-/* mapa */
+/* Seccion Spot */
+.spot-eco-barrier {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.spot-eco-barrier h2 {
+    background-color:#80b698;
+    font-size: 2.5rem;
+    padding: 2.5rem;
+}
+
+/* Seccion mapa */
 
 .container-mapa {
-    background-color:rgb(227, 239, 242) ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    padding-bottom: 60px;
 }
 .container-mapa h2 {
-    padding-bottom: 40px;
-
+    padding: 40px 0px;
 }
 
+.mapa-title {
+    background-color: #80b698;
+}
+
+iframe {
+    margin-top: 20px;
+}
+
+/* Footer mobile */
+
 .container-footer {
-    background-color: #181a1a;
+    text-align: center;
+}
+
+.container-footer img {
+    width: 22em;
 }
 
 
@@ -60,6 +81,14 @@
         justify-content:right;
         padding-right: 20px;
     }
+    .nav-menu a {
+        font-size: 1.5rem;
+        font-weight:500;
+    }
+    .nav-menu a:hover {
+        color: #0e4727 !important;
+        text-decoration: underline;
+    }
     .navegador {
         height: 120px;
     }
@@ -67,6 +96,26 @@
         flex-direction: row;
     }
     .carousel-change {
-        height: 100vh;
+        max-height: 100vh;
+    }
+    .text-slider {
+        position: absolute;
+        bottom: 400px;
+    }
+    .text-slider h5 {
+        font-size: 4rem;
+    }
+    .text-slider p {
+        font-size: 2rem;
+    }
+
+    .title-revista h2 {
+        background-color:#80b698;
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 1.5rem;
+    }
+    .mapa-title h2 {
+        font-size: 2.5rem;
     }
 }

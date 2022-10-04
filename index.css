@@ -69,10 +69,12 @@
     background-color:#80b698;
     font-size: 1.5rem;
     padding: 2.5rem;
+    text-transform: uppercase;
 }
 
 .spot-eco-barrier iframe {
     width: 100%;
+    height: auto;
 }
 
 .spot-eco-radio {

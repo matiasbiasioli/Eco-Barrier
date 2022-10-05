@@ -50,13 +50,16 @@
 
 .container-quienes-somos .title-revista h2 {
     text-align: center;
-    padding: 1.5rem;
 }
 
 .content-revista {
-    padding: 60px 0px; 
+    padding: 40px 0px; 
     display: flex;
     justify-content: center;
+}
+
+.content-revista img {
+    width: 20rem;
 }
 
 /* Seccion Spot */

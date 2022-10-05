@@ -66,7 +66,7 @@
 }
 
 .spot-eco-barrier h2 {
-    background-color:#80b698;
+    background-image: url(./imagenes/beige-paintbrush-stroke-textured-background.jpg);
     font-size: 1.5rem;
     padding: 2.5rem;
     text-transform: uppercase;
@@ -74,7 +74,7 @@
 
 .spot-eco-barrier iframe {
     width: 100%;
-    height: auto;
+    height: 300px;
 }
 
 .spot-eco-radio {
@@ -90,7 +90,7 @@
 
 .container-mapa {
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 .container-mapa h2 {
     padding: 40px 0px;
@@ -102,7 +102,38 @@
 
 iframe {
     margin-top: 20px;
+    height: 300px;
 }
+
+/* seccion formulario */
+
+.form-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form-body {
+    padding-bottom: 40px;
+}
+
+/* Redes */
+
+.icono-wp {
+    position: absolute;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.icono-wp img {
+    width: 5rem;
+}
+
+.icono-wp img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
 /* Footer mobile */
 

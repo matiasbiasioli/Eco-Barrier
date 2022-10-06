@@ -1,12 +1,17 @@
 /* Nav mobile*/
 
-
 .nav-content img {
     width: 16rem;
 }
 
+.nav-menu {
+    text-align: center;
+}
+
 .nav-menu a {
     color: #1b7e46 !important;
+    text-decoration: none;
+
 }
 
 .btn-hamburguesa {
@@ -99,11 +104,6 @@
 .container-mapa h2 {
     padding: 40px 0px 0px 0px;
 }
-
-.mapa-title {
-    
-}
-
 iframe {
     margin-top: 20px;
     height: 300px;
@@ -162,10 +162,22 @@ iframe {
     .nav-menu a {
         font-size: 1.5rem;
         font-weight:500;
+        position: relative;
     }
-    .nav-menu a:hover {
-        color: #0e4727 !important;
-        text-decoration: underline;
+    .nav-menu a:after {
+        content:"";
+        width: 0;
+        height: 4px;
+        background-color: #1b7e46;
+        position: absolute;
+        bottom: 0;
+        right: 100%;
+        transition: all .5s;
+    }
+    .nav-menu a:hover:after{
+        width: 100%;
+        right: 0;
+        
     }
     .navegador {
         height: 120px;

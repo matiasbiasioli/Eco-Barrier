@@ -47,6 +47,13 @@
     border: white solid .1px;
 }
 
+.icono__wp img {
+    position: fixed;
+    width: 8rem;
+    right: 20px;
+    bottom: 20px;
+}
+
 
 /* Seccion revista mobile */
 

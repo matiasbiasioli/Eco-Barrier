@@ -1,24 +1,23 @@
 /* Nav mobile*/
 
-
-
-.nav-content img {
-    width: 16rem;
+.nav-content {
+    display: flex;
+    justify-content: space-evenly !important;
 }
 
+.nav-content img {
+    width: 12rem;
+}
 .nav-menu {
     text-align: center;
 }
-
 .nav-menu a {
     color: #1b7e46 !important;
     text-decoration: none;
 
 }
-
 .btn-hamburguesa {
-    margin: auto;
-    font-size: .7rem;
+    font-size: .5rem;
 }
 
 /* contenido principal mobile*/
